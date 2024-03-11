@@ -1,4 +1,5 @@
 import './App.css';
+import ThreeCanvas from './components/ThreeCanvas';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
           Work in Progress
         </p>
       </header>
+      <ThreeCanvas/>
     </div>
   );
 }

@@ -1,9 +1,12 @@
 import './App.css'
+import { Canvas } from "@react-three/fiber"
 
 const App = () => {
   return (
     <>
-      <h1>Work in Progress</h1>
+      <Canvas>
+        <boxGeometry/>
+      </Canvas>
     </>
   )
 }
